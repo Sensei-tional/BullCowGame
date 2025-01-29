@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"C:/Users/keste/Documents/Game Projects/Unreal/BullCow/BullCowGame-starter-kit/.vscode": true,
+		"C:/Users/keste/Documents/Game Projects/Unreal/BullCow/BullCowGame-starter-kit/Content": true,
+		"C:/Users/keste/Documents/Game Projects/Unreal/BullCow/BullCowGame-starter-kit/DerivedDataCache": true,
+		"C:/Users/keste/Documents/Game Projects/Unreal/BullCow/BullCowGame-starter-kit/Intermediate": true,
+		"C:/Users/keste/Documents/Game Projects/Unreal/BullCow/BullCowGame-starter-kit/Saved": true
+	}
+}
