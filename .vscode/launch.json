@@ -5,7 +5,7 @@
 			"name": "BullCowGame (Debug)",
 			"request": "launch",
 			"preLaunchTask": "BullCowGame Win64 Debug Build",
-			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-Debug.exe",
+			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-Debug.exe",
 			"args": [
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
@@ -18,7 +18,7 @@
 			"name": "BullCowGame (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "BullCowGame Win64 DebugGame Build",
-			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-DebugGame.exe",
+			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-DebugGame.exe",
 			"args": [
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
@@ -31,7 +31,7 @@
 			"name": "BullCowGame (Development)",
 			"request": "launch",
 			"preLaunchTask": "BullCowGame Win64 Development Build",
-			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame.exe",
+			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame.exe",
 			"args": [
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
@@ -44,7 +44,7 @@
 			"name": "BullCowGame (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "BullCowGame Win64 Shipping Build",
-			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-Shipping.exe",
+			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-Shipping.exe",
 			"args": [
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
@@ -57,7 +57,7 @@
 			"name": "BullCowGame (Test)",
 			"request": "launch",
 			"preLaunchTask": "BullCowGame Win64 Test Build",
-			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-Test.exe",
+			"program": "C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\Binaries\\Win64\\BullCowGame-Win64-Test.exe",
 			"args": [
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
@@ -72,7 +72,7 @@
 			"preLaunchTask": "BullCowGameEditor Win64 Debug Build",
 			"program": "D:\\Epic\\Epic Games\\Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\BullCowGame.uproject"
+				"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\BullCowGame.uproject"
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
 			"stopAtEntry": false,
@@ -86,7 +86,7 @@
 			"preLaunchTask": "BullCowGameEditor Win64 DebugGame Build",
 			"program": "D:\\Epic\\Epic Games\\Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\BullCowGame.uproject"
+				"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\BullCowGame.uproject"
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
 			"stopAtEntry": false,
@@ -100,7 +100,7 @@
 			"preLaunchTask": "BullCowGameEditor Win64 Development Build",
 			"program": "D:\\Epic\\Epic Games\\Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\BullCowGame.uproject"
+				"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\BullCowGame.uproject"
 			],
 			"cwd": "D:\\Epic\\Epic Games\\Games\\UE_4.22",
 			"stopAtEntry": false,
@@ -117,7 +117,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCow\\BullCowGame-starter-kit\\BullCowGame.uproject\"",
+				"-project=\"C:\\Users\\keste\\Documents\\Game Projects\\Unreal\\BullCowGame-starter-kit\\BullCowGame.uproject\"",
 				"-game",
 				"-engine"
 			],
