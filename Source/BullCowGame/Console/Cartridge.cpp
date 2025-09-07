@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// ©Kester McPherson. All rights reserved.
 
 
 #include "Cartridge.h"
@@ -8,6 +8,7 @@
 void UCartridge::BeginPlay()
 {
 	Super::BeginPlay();
+	//Finds the terminal
 	Terminal = GetOwner()->FindComponentByClass<UTerminal>();
 	checkf(Terminal, TEXT("[%s]: No Terminal found"), *GetName())
 }

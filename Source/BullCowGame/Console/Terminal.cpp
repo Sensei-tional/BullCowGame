@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// ©Kester McPherson. All rights reserved.
 
 
 #include "Terminal.h"
@@ -16,6 +16,7 @@ void UTerminal::BeginPlay()
 	Super::BeginPlay();
 	UpdateText();
 }
+
 
 void UTerminal::ActivateTerminal()
 {
@@ -53,6 +54,7 @@ void UTerminal::PrintLine(const FString& Line)
 	UpdateText();
 }
 
+//Clears terminal screen
 void UTerminal::ClearScreen()
 {
 	Buffer.Empty();
@@ -87,6 +89,7 @@ TArray<FString> UTerminal::WrapLines(const TArray<FString>& Lines) const
 	return WrappedLines;
 }
 
+//Removes the lines at the top one a max number of lines have been reached
 void UTerminal::Truncate(TArray<FString>& Lines) const
 {
 	while (Lines.Num() > MaxLines)
@@ -95,6 +98,7 @@ void UTerminal::Truncate(TArray<FString>& Lines) const
 	}
 }
 
+//Adds text
 FString UTerminal::JoinWithNewline(const TArray<FString>& Lines) const
 {
 	FString Result;
@@ -105,6 +109,7 @@ FString UTerminal::JoinWithNewline(const TArray<FString>& Lines) const
 	return Result;
 }
 
+//What happens when a key is pressed
 void UTerminal::OnKeyDown(FKey Key)
 {
 	if (Key == EKeys::Enter)
@@ -117,7 +122,8 @@ void UTerminal::OnKeyDown(FKey Key)
 		Backspace();
 	}
 
-    const FString KeyString = GetKeyString(Key);
+    //Checks for upper and lower case modifier
+	const FString KeyString = GetKeyString(Key);
     const FModifierKeysState KeyState = FSlateApplication::Get().GetModifierKeys();
 	if (KeyState.IsShiftDown() || KeyState.AreCapsLocked())
 	{
@@ -131,7 +137,7 @@ void UTerminal::OnKeyDown(FKey Key)
 	UpdateText();
 }
 
-
+//Commits what is in the terminal for users guess
 void UTerminal::AcceptInputLine()
 {
 	Buffer.Emplace(GPrompt + InputLine);
@@ -144,6 +150,7 @@ void UTerminal::AcceptInputLine()
 
 }
 
+//Allows user to remove a previously typed letter.
 void UTerminal::Backspace()
 {
 	if (InputLine.Len() > 0)
@@ -152,6 +159,7 @@ void UTerminal::Backspace()
 	}
 }
 
+//Takes keypress and converts into character
 FString UTerminal::GetKeyString(FKey Key) const
 {
 	const uint32* KeyCode = nullptr;
@@ -166,6 +174,7 @@ FString UTerminal::GetKeyString(FKey Key) const
 	return TEXT("");
 }
 
+//Updates the text on the terminal
 void UTerminal::UpdateText()
 {
 	TextUpdated.Broadcast(GetScreenText());

@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// ©Kester McPherson. All rights reserved.
 
 #include "BullCowGame.h"
 #include "Modules/ModuleManager.h"

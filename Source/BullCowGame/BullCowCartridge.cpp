@@ -1,4 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// ©Kester McPherson. All rights reserved.
+
 #include "BullCowCartridge.h"
 
 void UBullCowCartridge::BeginPlay() // When the game starts
